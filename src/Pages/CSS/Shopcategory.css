@@ -1,0 +1,59 @@
+.shop-category {
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    margin-bottom: 100px;
+}
+
+.shopcategory-banner {
+    margin: 30px auto;
+    display: block;
+    width: 82%;
+}
+
+.shopcategory-indexsort {
+    display: flex;
+    justify-content: space-between; /* Changed from justify-items */
+    align-items: center;
+    margin: 0 170px; /* Fixed comma to space */
+    width: calc(100% - 340px); /* Added to account for left/right margins */
+}
+
+.shopcategory-indexsort p span {
+    font-weight: 600;
+   
+}
+
+.shopcategory-sort {
+    padding: 10px 20px; /* Fixed comma to space */
+    font-size: 16px; /* Reduced from 22px for better proportion */
+    border: 1px solid #888;
+    border-radius: 40px;
+    height: 30px; /* Reduced from 50px */
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+.shopcategory-products {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* Cleaner syntax */
+    margin: 20px 170px;
+    gap: 30px;
+    width: calc(100% - 340px); /* Added to account for left/right margins */
+}
+.load-more{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 150px auto;
+    background-color: #e8e3e3;
+    cursor: pointer;
+    border: 1px solid #c1a2a2;
+    border-radius: 75px;
+    font-size: 18px;
+    font-weight: 500;
+    width: 233px;
+    height: 69px;
+    
+}
